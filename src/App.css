@@ -13,13 +13,35 @@
   }
 }
 
+
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid gray;
+  padding: 50px;
+  border-radius: 7.5%;
+  }
+.Welcome{
+  color: white;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+.SignIn{
+  color: lightblue;
+  font-size: calc(10px + 2vmin);
+
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #516999;
+  min-height: 5vh;
+  max-height: 5vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: Top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
