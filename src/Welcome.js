@@ -6,7 +6,7 @@ function Welcome() {
     <div className="Welcome">
       <p> Welcome! </p> 
       <p><a href='https://www.google.com' target="_blank">Sign In</a></p>
-      <p1>No Account?</p1>
+      <p>No Account?</p>
       <p><a href='https://www.google.com' target="_blank">Sign Up</a></p>
     </div>
     
